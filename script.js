@@ -5,6 +5,8 @@ let btnSort = $('#btnSort')
 let btnCleanup = $('#btnCleanup')
 let inpNewTask = $('#inpNewTask')
 
+
+//ADDitem
 function addItem() {
   let listItem = $('<li>', {
     'class': 'list-group-item',
@@ -26,7 +28,7 @@ function clearDone() {
 function sortTasks() {
   $('#ulTasks .done').appendTo(ulTasks)
 }
-
+//buttons add
 function toggleInputButtons() {
   btnReset.prop('disabled', inpNewTask.val() == '')
   btnAdd.prop('disabled', inpNewTask.val() == '')
