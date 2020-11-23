@@ -6,7 +6,7 @@ let btnCleanup = $('#btnCleanup')
 let inpNewTask = $('#inpNewTask')
 
 
-//ADDitem
+//Additems
 function addItem() {
   let listItem = $('<li>', {
     'class': 'list-group-item',
