@@ -36,6 +36,7 @@ function toggleInputButtons() {
   btnCleanup.prop('disabled', ulTasks.children().length < 1)
 }
 
+//new task
 inpNewTask.keypress((e) => {
   if (e.which == 13) addItem()
 })
