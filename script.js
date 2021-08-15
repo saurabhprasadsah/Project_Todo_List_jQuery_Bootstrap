@@ -42,6 +42,7 @@ inpNewTask.keypress((e) => {
 })
 inpNewTask.on('input', toggleInputButtons)
 
+//add item
 btnAdd.click(addItem)
 btnReset.click(() => {
   inpNewTask.val('')
